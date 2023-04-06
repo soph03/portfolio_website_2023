@@ -1,0 +1,71 @@
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-text');
+/*@font-face {
+    font-family: 'neue_haas_grotesk_displa95Blk';
+    src: url('font/neuehaasdisplayblack-webfont.woff2') format('woff2'),
+         url('font/neuehaasdisplayblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+   /*font-family: 'neue_haas_grotesk_displa95Blk', serif;*/
+   font-family: 'Neue Haas Grotesk Text', sans-serif;                 
+   color: #000000;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.main-container{
+	margin-left: 2rem;
+	margin-right: 0rem;
+	margin-top: 5rem;
+}
+
+/*FONTS*/
+
+#home-bio h2{
+	font-weight: 10;
+	font-size: 2rem;
+	margin: 0;
+	width: clamp(25ch, 85%, 45ch);
+}
+
+.home-projects-grid p{
+	width: clamp(25ch, 85%, 45ch);
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	list-style-type: none;
+}
+nav li a {
+    color: #000000;
+    /*text-decoration: none;*/
+}
+
+/*HOME*/
+.home-projects-grid img{
+	margin-left: 2rem;
+}
+
+.resume-button , .linkedln-button{
+	border-width: 1.8px; 
+	border-style: solid;
+	text-align: center;
+	padding: 0.8rem 4rem;
+	text-decoration: none;
+	font-size: 2rem;
+	color: #000000;
+	margin-bottom: 1rem;
+}
+
