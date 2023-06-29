@@ -141,7 +141,7 @@
 
 /*------------------EA------------------*/
 
-.overview, .ea-solution{
+#overview, .ea-solution{
 	display: grid;
 	grid-row-gap: 1rem;
 }

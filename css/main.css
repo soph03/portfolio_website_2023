@@ -60,6 +60,28 @@ ul{
 	margin: 0.4rem 0rem 0.4rem 0rem;
 }
 
+.back-up {
+  height: 2.8rem;
+  width: 2.8rem;
+  background-color: #cccac7;
+  position: fixed;
+  right: 5rem;
+ 	bottom: 4rem;
+ 	border-radius: 50%;
+ 	opacity: 0.5;
+}
+.arrow-up{
+	border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  color: white;
+  position: relative;
+  left: 0.94rem;
+  top: 1.05rem;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
 
 /*------------------FONTS------------------*/
 
