@@ -540,7 +540,7 @@ width: 700px;
 }
 
 .wip-project:hover .splitwise-project{
-	background: black;
+	background: grey;
 }
 
 .wip-project:hover img{
