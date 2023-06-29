@@ -11,6 +11,9 @@
     <!-- Links to CSS Style Sheets -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts2.css">
 </head>
 
 <body>
@@ -21,9 +24,9 @@
         <!-- Main Navigation -->
         <nav id="navigation">
             <ul>
-                <li><a href="index.html#home-projects">Sophia</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="img/Resume_Wang_Sophia.pdf" target="_blank">Contact</a></li>
+                <li><a href="index.html" class="active">Sophia</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="about.html#contact-links" class="nav-link">Contact</a></li>
             </ul>
         </nav> <!-- Main Navigation -->
     </div>
@@ -31,60 +34,67 @@
     <div> <!-- Main Content -->
 
         <div id="home-bio">
-            <h2>Hi, I’m Sophia, a Product Designer with a background in Interactive Design and Business Strategy. <br>Previously at SAP, Electronic Arts, and Avanade. <br>Looking for full time opportunities.</h2>
+            <h2>Hi, it's Sophia here<em>!</em></h2>
+            <h2>Product Designer seeking for <em>innovative</em> and <em>challenging</em> design opportunities. Previously at <em>SAP</em>, <em>Electronic Arts</em>, and <em>Avanade.</em></h2>
         </div>
 
         <div id="home-projects">
-            <div class="home-projects-grid">
-                <img src="img/home-project-ea-img.png" width="500">
-                <div class="home-projects-desc">
-                    <h3>Electronic Arts</h3>
-                    <p>Allowing users to become more aware of a game's state with display tiles</p>
-                </div>
-            </div>
 
-             <div class="home-projects-grid">
-                <img src="img/home-project-ea-img.png" width="500">
-                <div class="home-projects-desc">
-                    <h3>Electronic Arts</h3>
-                    <p>Allowing users to become more aware of a game's state with display tiles</p>
+           <a href="ea.html">
+                 <div class="home-projects-grid ea-project">
+                    <div class="home-projects-desc">
+                        <h5>Electronic Arts</h5>
+                        <h3>Allow users to make informed purchasing decisions with game states</h3>
+                    </div>
+                    <img src="img/home-project-ea-img.png" width="440" >
                 </div>
-            </div>
+            </a>
+          
 
-            <div class="home-projects-grid">
-                <img src="img/home-project-ea-img.png" width="500">
-                <div class="home-projects-desc">
-                    <h3>Electronic Arts</h3>
-                    <p>Allowing users to become more aware of a game's state with display tiles</p>
+            <a href="trackling.html">
+                 <div class="home-projects-grid trackling-project">
+                    <div class="home-projects-desc">
+                        <h5>Trackling</h5>
+                        <h3>Help seniors understand their physical capabilities through live health tracking</h3>
+                    </div>
+                    <img src="img/home-project-trackling-img.png" width="380">
                 </div>
-            </div>
+            </a>
+
+            <a href="" class="wip-project">
+                <div class="home-projects-grid splitwise-project">
+                    <div class="home-projects-desc splitwise-desc">
+                        <h5 class="splitwise-project-h5">Splitwise</h5>
+                        <h3 class="splitwise-project-h3">Support users in recognizing the correct numbers to settle a payment</h3>
+                    </div>
+                    <img src="img/home-project-splitwise-img.png" width="405" >
+                </div>
+                <h3 class="middle">🛠️UNAVAILABLE - work in progress🛠️</h3>
+            </a>
+
+<!--             <a href="">
+                <div class="home-projects-grid splitwise-project">
+                    <div class="home-projects-desc">
+                        <h3>Splitwise</h3>
+                        <h5>WORK IN PROGRESS</h5>
+                    </div>
+                    <img src="img/home-project-vscia-img.png" width="405" >
+                </div>
+            </a> -->
             
-        </div> <!--home-projects-->
+            <div class="home-footer">
+                <h5><em>Carefully crafted and coded by me :)</em></h5>
+            </div> <!-- home-footer --> 
 
-        <div id="home-about">
-            <div>
-                <h2>About</h2>
-                <p>I study Interactive Design and Business Marketing at Simon Fraser University. My skills range from UX/UI design, user research, website building to business strategy. I enjoy working in a innovative, challenging, and organized teams.</p>
-                <p>Out of work, you can find me learning about nutrition, discovering new music, exploring different cities/countries, and snowboarding on Whistler Mountain.</p>
-                <p>Currently working PST and open to relocating :) </p>
-            </div>
+        </div> <!-- home-projects -->
+        </div> <!--main-container-->
 
-            <div class="home-links">
-                <a href="" class="resume-button">Resume</a>
-                <a href="" class="linkedln-button">Linkedln</a>
-            </div>
 
-        </div>
-
-        
     </div> <!-- Main Content -->
-
-
 
 
 </section> <!--home-->
 
-</div> <!-- main-container -->
 
 </body>
 </html>
