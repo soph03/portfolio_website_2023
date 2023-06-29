@@ -16,7 +16,7 @@ img{
 
 /* top right bottom left */
 .main-container{
-	margin:5rem 0 5rem 2rem;
+	margin:4rem 0 5rem 2rem;
 }
 
 .home-subbio{
@@ -385,6 +385,11 @@ section#about{
 	color: black;
 	background: white;
 }
+
+.about-skill-grid p{
+	margin-bottom: 0rem;
+}
+
 
 /*---------------EA------------------*/
 #navigation h3{

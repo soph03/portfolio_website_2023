@@ -52,7 +52,7 @@
 	align-items: center;
 
 }
-.SGoal-grid{
+.about-skill-grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 2em; 
