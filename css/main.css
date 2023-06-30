@@ -182,7 +182,7 @@ figcaption{
 	font-size: 0.75rem;
 }
 
-@media (max-width: 320px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 	.main-container{
 		margin: 0;
 	}
@@ -372,7 +372,7 @@ ul li{
 	margin: 0px;
 }
 
-@media (max-width: 320px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 	.home-projects-grid img{
 	margin-left: 0rem;
 	}
