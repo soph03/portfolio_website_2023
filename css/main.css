@@ -16,7 +16,7 @@ img{
 
 /* top right bottom left */
 .main-container{
-	margin:4rem 0 5rem 2rem;
+	margin:4rem 0 2rem 2rem;
 }
 
 .home-subbio{
@@ -43,16 +43,20 @@ nav li{
 	margin-bottom: 1rem;
 }
 
-nav li a {
+nav li a , .foot-left-grid a{
   color: #000000;
   text-decoration: none;
+}
+
+.foot-left-grid a{
+	text-decoration: underline;
 }
 
 ul{
 	padding-left: 1rem;
 }
 
-.active, .nav-link:hover {
+.active, .nav-link:hover, .foot-left-grid a:hover {
  color: #bababa;
 }
 
@@ -82,6 +86,10 @@ ul{
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 }
+
+.home-footer{
+		margin: 0rem 3rem 2rem 3rem;
+	}
 
 /*------------------FONTS------------------*/
 
@@ -406,10 +414,10 @@ section#about{
 	font-size: 1rem;
 }
 
-.about-item-text h2{
+#about h2{
 	font-size: 2.8rem;
 	line-height: 3.5rem;	
-	margin: 0rem 0rem 1.5rem 0rem
+	margin: -.7rem 0rem 1.5rem 0rem
 }
 
 #contact-links{
@@ -452,6 +460,11 @@ section#about{
 }
 
 .about-skill-grid p{
+	margin-bottom: 0rem;
+}
+
+.about-skill-grid ul{
+	margin-top: 0rem;
 	margin-bottom: 0rem;
 }
 
@@ -614,7 +627,6 @@ h3.number{
 
 .middle {
 opacity: 0;
-transition: .3s ease;
 position: relative;
 left: 102px;
 bottom: 188px;
@@ -629,6 +641,7 @@ width: 700px;
 
 .wip-project:hover .splitwise-project{
 	background: grey;
+	opacity: 0.8;
 }
 
 .wip-project:hover img{
