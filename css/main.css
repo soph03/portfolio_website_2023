@@ -447,6 +447,22 @@ section#about{
 	margin-bottom: 0rem;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.about-margin{
+		margin: 0em;
+	}
+	section#about{
+		padding-top: 0rem;
+	}
+	.home-subbio{
+		white-space: inherit;
+	}
+	.about-item-text{
+		margin: 0.9rem 0.9rem 0.9rem 0.9rem;
+	}
+}
+
+
 
 /*---------------EA------------------*/
 #navigation h3{

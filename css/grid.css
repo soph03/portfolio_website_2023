@@ -105,10 +105,9 @@
 }
 
 .side-nav{
+	display: grid;
 	grid-column-start: 2;
 	grid-column-end: 6;
-	top: 0;
-    left: 0;
 	/*position: sticky;*/
 	align-self: start;
     padding-top: 3.05em;
@@ -157,6 +156,26 @@
     grid-column-end: 31;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.content{
+		display: flex;
+	}
+	.side-nav{
+    	padding-top: 0.9em;
+	}
+	.about-grid{
+		display: flex;
+		flex-direction: column;
+		align-items: inherit;
+		grid-row-gap: 0.8rem;
+	}
+	#contact-links{
+		padding: 2.5rem 0rem 2rem 0rem;
+	}
+	.center-container-about {
+		padding: 1em 0.9em 0em 0.9em;
+	}
+}
 
 /*------------------EA------------------*/
 
