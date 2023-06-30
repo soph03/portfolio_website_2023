@@ -42,7 +42,7 @@
     justify-content: center;
 }
 
-@media only screen and (min-device-width: 320px){
+@media (max-width: 320px){
 	#home{
 		display: inline;
 	}

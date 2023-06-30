@@ -182,8 +182,8 @@ figcaption{
 	font-size: 0.75rem;
 }
 
-@media only screen and (min-device-width: 320px){
-		.main-container{
+@media (max-width: 320px){
+	.main-container{
 		margin: 0;
 	}
 	nav, #home-bio{
@@ -202,16 +202,13 @@ figcaption{
 	.home-projects-grid p, .home-projects-grid h5 {
 		width: auto;
 	}
-	.home-projects-grid img{
-		margin-left: 0rem;
-	}
 	.middle{
 		display: none;
 	}
 	.home-footer h5{
 		font-size: 1rem;
     margin: 0.6rem 0rem 0rem 0.9rem;
-	}
+	} 
 }
 
 
@@ -373,6 +370,12 @@ ul li{
  
 .ea-research figure{
 	margin: 0px;
+}
+
+@media (max-width: 320px){
+	.home-projects-grid img{
+	margin-left: 0rem;
+	}
 }
 
 /*----------------ABOUT------------------*/
@@ -579,7 +582,7 @@ h3.number{
 }*/
 
 .middle {
-opacity: 1;
+opacity: 0;
 transition: .3s ease;
 position: relative;
 left: 102px;
