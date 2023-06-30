@@ -42,6 +42,25 @@
     justify-content: center;
 }
 
+@media only screen and (min-device-width: 320px){
+	#home{
+		display: inline;
+	}
+	nav ul{
+		padding-left: 0rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	.home-projects-grid{
+		display: flex;
+		flex-direction: column;
+	}
+	#home-projects{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 
 /*------------------ABOUT------------------*/
 

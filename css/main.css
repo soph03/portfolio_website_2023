@@ -182,6 +182,38 @@ figcaption{
 	font-size: 0.75rem;
 }
 
+@media only screen and (min-device-width: 320px){
+		.main-container{
+		margin: 0;
+	}
+	nav, #home-bio{
+		margin: 0.9rem 0.9rem 0.9rem 0.9rem;
+	}
+	#home-bio h2{
+		width: auto;
+		font-size: 2rem;
+	}
+	#home-bio em {
+    font-size: 2.3rem;
+	}
+	.home-projects-desc{
+		margin: 0.9rem 0.9rem 0.9rem 0.9rem;
+	}
+	.home-projects-grid p, .home-projects-grid h5 {
+		width: auto;
+	}
+	.home-projects-grid img{
+		margin-left: 0rem;
+	}
+	.middle{
+		display: none;
+	}
+	.home-footer h5{
+		font-size: 1rem;
+    margin: 0.6rem 0rem 0rem 0.9rem;
+	}
+}
+
 
 /*------------------ HOME ------------------*/
 .home-projects-grid img{
@@ -547,7 +579,7 @@ h3.number{
 }*/
 
 .middle {
-opacity: 0;
+opacity: 1;
 transition: .3s ease;
 position: relative;
 left: 102px;
