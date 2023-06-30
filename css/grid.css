@@ -159,6 +159,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 	.content{
 		display: flex;
+		flex-direction: column;
 	}
 	.side-nav{
     	padding-top: 0.9em;
@@ -174,6 +175,27 @@
 	}
 	.center-container-about {
 		padding: 1em 0.9em 0em 0.9em;
+	}
+	.main-content{
+		display: flex;
+		padding-top: 0rem;
+		margin-left: 0.9rem;
+		margin-right: 0.9rem;
+	}
+	.project-detail{
+		flex-wrap: wrap;
+		gap: 0.9rem;
+		margin-bottom: 2rem;
+	}
+	.highlight-dark, .highlight-light{
+		display: inherit;
+	}
+	.highlight-content-dark, .highlight-content-light{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	.reflection{
+		display: inherit;
 	}
 }
 
@@ -291,6 +313,38 @@
 	display: grid;
 	grid-row-gap: 2rem;
 	margin-bottom: 2rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.findings-grid{
+		display: inherit;
+		margin:0rem 0.9rem 1rem 0.9rem;
+	}
+	.thefinding{
+		margin: 0rem 0rem 0.8rem 0rem;
+	}
+	.currentD-grid, .revision-grid{
+		grid-template-columns: 1fr;
+	}
+	.ea-changes, .ea-considerations{
+		margin: 0rem 0.9rem 0rem 0.9rem;
+	}
+	.ea-changes-grid, .d-consid-grid{
+		grid-template-columns: 1fr;
+		grid-row-gap: 0.8rem;
+	}
+	.ea-gamestate{
+		display: inherit;
+	}
+	.ea-solution-final{
+		margin: 1rem 0.9rem 1rem 0.9rem;
+	}
+	.ea-solution-grid, .ea-solution-grid-inform{
+		grid-template-columns: 1fr;
+		border-left: 0.2rem solid white;
+    	padding-left: 0.5rem;
+    	grid-row-gap: 1rem;
+	}
 }
 
 /* ------------------ TRACKLING ------------------*/

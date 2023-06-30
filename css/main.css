@@ -209,6 +209,10 @@ figcaption{
 		font-size: 1rem;
     margin: 0.6rem 0rem 0rem 0.9rem;
 	} 
+	.back-up{
+		right: 1.8rem;
+    bottom: 1.8rem;
+	}
 }
 
 
@@ -374,7 +378,11 @@ ul li{
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 	.home-projects-grid img{
-	margin-left: 0rem;
+		margin-left: 0rem;
+	}
+	.footer-container{
+		 margin-left: 0.9rem;
+    margin-right: 0.9rem;
 	}
 }
 
@@ -565,6 +573,13 @@ h3.number{
 
 .ea-impact-big{
 	background-color: #ffe2c6;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.ea-impact, .ea-impact-big {
+		grid-template-columns: 0.25fr 1fr;
+		padding: 0.5rem 1.2rem 0.5rem 1rem;
+	}
 }
 
 /* ------------------ TRACKLING ------------------*/
