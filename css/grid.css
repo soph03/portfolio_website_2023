@@ -204,6 +204,7 @@
 	}
 	.main-content{
 		display: flex;
+		flex-direction: column;
 		padding-top: 0rem;
 		margin-left: 0.9rem;
 		margin-right: 0.9rem;

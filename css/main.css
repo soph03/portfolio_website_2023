@@ -204,6 +204,9 @@ figcaption{
 	#home-bio em {
     font-size: 2.3rem;
 	}
+	#home-projects h3{
+		font-family: 'neue_haas_grotesk_disp55roman';
+	}
 	.home-projects-desc{
 		margin: 0.9rem 0.9rem 0.9rem 0.9rem;
 	}
