@@ -158,9 +158,9 @@ strong{
 	font-family:'neue_haas_grotesk_display65Md'; 
 }
 
-body.project-body p{
+#ea-project-body p, #trackling-project-body p{
 	font-size: 1rem;
-	line-height: 1.85rem;
+	line-height: 1.65rem;
 }
 
 
@@ -537,7 +537,7 @@ hr.section_separator{
 
 
 .thefinding p, .thefinding-trac p{
-	margin: 0rem; 
+	margin:0rem;
 	line-height: 0rem;
 }
 
