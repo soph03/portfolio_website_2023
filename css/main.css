@@ -507,7 +507,7 @@ section#about{
 .reflection{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-color: #FDF4EA;
+	background-color: #F1F1F1;
 }
 
 hr.section_separator{
@@ -523,17 +523,18 @@ hr.section_separator{
 	background-color: white;
 }
 
-.thefinding{
-	background-color: #ffe2c6;
+.thefinding, .thefinding-trac{
+	border: 2px dashed #838383;
 	margin: 1rem 1rem 1rem 0rem;
 	padding: 0.7rem 1rem 0.9rem 1.2rem;
 }
 
-.thefinding-trac{
-	background-color: #e9e9e9;
-	margin: 1rem 1rem 1rem 0rem;
-	padding: 0.7rem 1rem 0.9rem 1.2rem;
+.thefinding-CA{
+		border: 2px dashed #838383;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
 }
+
 
 .thefinding p, .thefinding-trac p{
 	margin: 0rem; 
@@ -580,12 +581,15 @@ h3.number{
 }
 
 .ea-impact{
-	background-color: #e9e9e9;
-	/*border: .2rem solid darkgrey;*/
+	border: 2px dashed #838383;
 }
 
 .ea-impact-big{
-	background-color: #ffe2c6;
+	border: 1.9px solid #4e4e4e;
+}
+
+.reflection h3{
+	font-size: 1.1rem;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){

@@ -125,6 +125,11 @@
     grid-template-columns: repeat(30, 1fr);
 }
 
+.reflection-grid{
+	display: grid;
+	grid-row-gap: 1rem;
+}
+
 .side-nav{
 	display: grid;
 	grid-column-start: 2;
@@ -279,12 +284,6 @@
 	grid-template-columns: 1fr 1fr;
 	grid-column-gap: 2rem;
 	align-items: center;
-}
-
-.thefinding-CA{
-	background-color: #ffe2c6;
-    margin: 1rem 0rem 1rem 0rem;
-    padding: 0.3rem 1rem 0.3rem 1rem;
 }
 
 
