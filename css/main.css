@@ -527,13 +527,13 @@ hr.section_separator{
 }
 
 .thefinding, .thefinding-trac{
-	border: 2px dashed #838383;
+	border: 1.85px dashed #838383;
 	margin: 1rem 1rem 1rem 0rem;
 	padding: 0.7rem 1rem 0.9rem 1.2rem;
 }
 
 .thefinding-CA{
-		border: 2px dashed #838383;
+		border: 1.85px dashed #838383;
     margin: 1rem 0rem 1rem 0rem;
     padding: 0.3rem 1rem 0.3rem 1rem;
 }
@@ -660,10 +660,9 @@ width: 700px;
 }
 
 
-/* ------------------ IMG ZOOM ------------------*/
+/* ------------------ MODAL IMG ------------------*/
 
 .modal-target {
-  border-radius: 5px;
   cursor: pointer;
 }
 
