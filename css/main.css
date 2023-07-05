@@ -387,7 +387,7 @@ ul li{
 	margin: 0px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px){
 	.home-projects-grid img{
 		margin-left: 0rem;
 	}
@@ -396,6 +396,7 @@ ul li{
     margin-right: 0.9rem;
 	}
 }
+
 
 /*----------------ABOUT------------------*/
 
@@ -638,7 +639,7 @@ position: relative;
 left: 102px;
 bottom: 188px;
 color: white;
-width: 700px;
+display: inline-block;
 }
 
 
@@ -648,7 +649,6 @@ width: 700px;
 
 .wip-project:hover .splitwise-project{
 	background: black;
-	opacity: 0.8;
 }
 
 .wip-project:hover img{
@@ -711,4 +711,22 @@ width: 700px;
   cursor: pointer;
 }
 
+@media screen and (min-width: 700px){
+		.home-projects-grid img {
+    margin-left: 0rem;
+	}
+}
 
+@media screen and (min-width: 1000px)  {
+	.middle {
+		bottom: 210px;
+	}
+}
+
+
+@media screen and (min-width: 1500px)  {
+	.middle {
+		bottom: 260px;
+	}
+
+}
