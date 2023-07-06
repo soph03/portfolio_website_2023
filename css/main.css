@@ -237,6 +237,14 @@ figcaption{
 	color: inherit;
 }
 
+#home-projects img{
+	height: 23rem;
+}
+
+.trackling-project img{
+	justify-self: center;
+}
+
 .ea-project{
 	background: radial-gradient(ellipse farthest-corner at 500px 150px, 
 		rgba(255,40,82,1) 0%, rgba(255,141,77,1) 53%, rgba(255,222,82,1) 100%);
@@ -495,6 +503,10 @@ section#about{
 	margin-bottom: 0rem;
 }
 
+.solution-button{
+	color: gray;
+}
+
 .ea-criteria li, .ea-focus li{
 	list-style: none;
 }
@@ -728,5 +740,14 @@ display: inline-block;
 	.middle {
 		bottom: 260px;
 	}
-
+	#home-projects img{
+		height: 26rem;
+	}
+	#home-bio h2{
+		font-size: 3.7rem;
+		line-height: 3.9rem;
+	}
+	#home-bio em{
+		font-size: 4.1rem;
+	}
 }

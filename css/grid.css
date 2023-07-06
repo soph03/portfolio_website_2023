@@ -243,9 +243,9 @@
 	grid-column-end: 27;
 }
 
-.process{
+.process, .overview{
 	display: grid;
-	grid-row-gap: 2rem;
+	grid-row-gap: 1.5rem;
 }
 
 .ea-gamestate{
