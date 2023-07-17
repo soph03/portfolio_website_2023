@@ -122,8 +122,9 @@ ul{
 }
 
 #home-projects h3{
-	font-size: 1.8rem;
+	font-size: 2.4rem;
 	margin: 0.5rem 0rem 0.5rem 0rem;
+	font-family: 'neue_haas_grotesk_disp55roman';
 }
 
 .home-projects-desc h5{
@@ -159,19 +160,20 @@ strong{
 }
 
 #ea-project-body p, #trackling-project-body p{
-	font-size: 1rem;
-	line-height: 1.65rem;
+	font-size: 1.3rem;
+	line-height: 1.9rem;
+	letter-spacing: 0.065rem;
 }
 
 
 h2{
 	font-family: 'neue_haas_grotesk_display35Th';
-	font-size: 1.1rem;
+	font-size: 1.45rem;
 }
 
 h3{
 	font-family: 'neue_haas_grotesk_display65Md';
-	font-size: 1.30rem;
+	font-size: 1.4rem;
 }
 
 h4{
@@ -327,6 +329,8 @@ div.para-spacing{
 
 ul li{
 	line-height: 1.7em;
+	font-size: 1.3rem;
+	letter-spacing: 0.08rem;
 }
 
 .footer-container{
@@ -732,6 +736,17 @@ display: inline-block;
 @media screen and (min-width: 1000px)  {
 	.middle {
 		bottom: 210px;
+	}
+	#ea-project-body p, #trackling-project-body p{
+	font-size: 1.15rem;
+	line-height: 1.7rem;
+	letter-spacing: 0.06rem;
+	}
+
+	ul li {
+    line-height: 1.7em;
+    font-size: 1.1rem;
+    letter-spacing: 0.062rem;
 	}
 }
 

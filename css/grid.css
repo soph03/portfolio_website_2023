@@ -113,7 +113,7 @@
 
 .project-detail{
 	display: flex;
-	gap: 4rem;
+	gap: 4.5rem;
 }
 
 .proj-contributions{
@@ -437,6 +437,12 @@
 	}
 	#home{
 		grid-column-gap: 0rem;
+	}
+}
+
+@media screen and (min-width: 1000px)  {
+	.project-detail {
+    gap: 3rem;
 	}
 }
 
