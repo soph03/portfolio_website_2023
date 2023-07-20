@@ -167,7 +167,7 @@
 
 .highlight-content-dark, .highlight-content-light{
 	grid-column-start: 7;
-	grid-column-end: 26;
+	grid-column-end: 27;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
@@ -392,8 +392,8 @@
 }
 
 .track-CA-grid{
-	grid-column-start: 9;
-	grid-column-end: 24;
+	grid-column-start: 8;
+	grid-column-end: 25;
 	display: grid;
 	grid-template-columns: 1fr 0.7fr;
 	grid-column-gap: 2rem;
