@@ -166,8 +166,8 @@
 }
 
 .highlight-content-dark, .highlight-content-light{
-	grid-column-start: 8;
-	grid-column-end: 25;
+	grid-column-start: 7;
+	grid-column-end: 26;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
@@ -392,10 +392,10 @@
 }
 
 .track-CA-grid{
-	grid-column-start: 7;
-	grid-column-end: 26;
+	grid-column-start: 9;
+	grid-column-end: 24;
 	display: grid;
-	grid-template-columns: 1fr 0.70fr;
+	grid-template-columns: 1fr 0.7fr;
 	grid-column-gap: 2rem;
 	justify-items: flex-end;
 	align-items: center;
