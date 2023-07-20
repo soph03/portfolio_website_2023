@@ -519,7 +519,7 @@ section#about{
 	padding-inline-start: 0em;
 }
 
-.ea-gamestate{
+#ea-gamestate{
 	color: #FFFFFF;
 	background-color: #161826;
 }
@@ -620,11 +620,11 @@ h3.number{
 }
 
 /* ------------------ TRACKLING ------------------*/
-.trackling-mock{
+#trackling-mock{
 	background-color: #F3F9F8;
 }
 
-.trackling-mock img{
+#trackling-mock img{
 	margin-bottom: 1rem;
 }
 

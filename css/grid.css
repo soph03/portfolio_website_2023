@@ -248,7 +248,7 @@
 	grid-row-gap: 1.5rem;
 }
 
-.ea-gamestate{
+#ea-gamestate{
 	grid-column-start: 1;
     grid-column-end: 31;
     display: grid;
@@ -348,7 +348,7 @@
 		grid-template-columns: 1fr;
 		grid-row-gap: 0.8rem;
 	}
-	.ea-gamestate{
+	#ea-gamestate{
 		display: inherit;
 	}
 	.ea-solution-final{
@@ -362,7 +362,7 @@
 }
 
 /* ------------------ TRACKLING ------------------*/
-.trackling-mock{
+#trackling-mock{
 	grid-column-start: 1;
     grid-column-end: 31;
     display: grid;
@@ -413,7 +413,7 @@
 	.trac-access-grid, .trackling-gif-grid{
 		grid-template-columns: 1fr;
 	}
-	.trackling-mock{
+	#trackling-mock{
 		display: inherit;
 	}
 	.track-solution-final{
