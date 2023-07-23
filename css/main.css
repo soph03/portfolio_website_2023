@@ -226,6 +226,7 @@ figcaption{
 		right: 1.8rem;
     bottom: 1.8rem;
 	}
+
 }
 
 
@@ -406,6 +407,9 @@ ul li{
 	.footer-container{
 		 margin-left: 0.9rem;
     margin-right: 0.9rem;
+	}
+		ul li{
+		font-size: 1rem;
 	}
 }
 

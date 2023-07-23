@@ -229,6 +229,9 @@
 	.reflection{
 		display: inherit;
 	}
+	.social-grid{
+		justify-content: center;
+	}
 }
 
 /*------------------EA------------------*/
