@@ -727,6 +727,13 @@ display: inline-block;
   cursor: pointer;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+	.middle {
+    left: 50px;
+    bottom: 340px;
+  }
+}
+
 @media screen and (min-width: 700px){
 		.home-projects-grid img {
     margin-left: 0rem;
