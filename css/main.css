@@ -158,7 +158,7 @@ body{
 	font-family: 'AGaramondPro-Regular';
 }
 
-#trackling-project-body em{
+#trackling-project-body em, #ea-project-body em{
 	font-style: normal;
 	text-decoration: underline;
 }
