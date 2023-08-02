@@ -1,8 +1,36 @@
-
-body{
-   font-family: 'neue_haas_grotesk_disp55roman', serif;
-   letter-spacing: 0.03rem;
+#index{
+	background-color: #0F0F0F;
 }
+
+#home-bio{
+	color: white;
+}
+
+
+/* BLACK VERSION 
+p, h1, h2, h3, li, h5{
+	color: white;
+}
+
+
+.highlight-content-light h1, .highlight-content-light h2, 
+#trackling-mock h1, #trackling-mock h2, #trackling-mock p, #trackling-mock h5,
+
+}
+
+#trackling-mock strong{
+	color: #a9d100;
+	font-family: 'neue_haas_grotesk_display65Md';
+}
+
+
+h2.project-title{
+	font-family: 'AGaramondPro-Regular';
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.4rem;
+}
+*/
 
 * {
     box-sizing: border-box;
@@ -44,12 +72,17 @@ nav li{
 }
 
 nav li a , .foot-left-grid a{
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
-.foot-left-grid a{
-	text-decoration: underline;
+.black-text{
+	color: black;
+}
+
+.side-nav a{
+	color: black;
+	font-size: 1.1rem;
 }
 
 ul{
@@ -91,7 +124,20 @@ ul{
 		margin: 0rem 3rem 2rem 3rem;
 	}
 
+.about-footer{
+		margin: 0rem 3rem 2rem 1rem;
+	}
+
 /*------------------FONTS------------------*/
+
+body{
+   font-family: 'neue_haas_grotesk_disp55roman', serif;
+   letter-spacing: 0.03rem;
+}
+
+.reflection h2, .reflection h3, .reflection p{
+	color: white;
+	}
 
 #home-bio h2{
 	font-family: 'neue_haas_grotesk_disp55roman';
@@ -151,17 +197,28 @@ ul{
 	margin-top: 0;
 }
 
-.ea-project h3, .ea-project h5, .splitwise-project h3, .splitwise-project h5{
+/*.ea-project h3, .ea-project h5, .splitwise-project h3, .splitwise-project h5{
 	color: white;
-}
+}*/
 
 strong{
-	font-family:'neue_haas_grotesk_display65Md'; 
+	/*color: #a7cf00;*/
+	font-family: 'neue_haas_grotesk_display65Md';
 }
 
-#ea-project-body p, #trackling-project-body p{
+.home-footer p{
+	color: white;
+	font-size: 1.1rem;
+}
+
+.about-footer p{
+	color: black;
+	font-size: 1.1rem;
+}
+
+#ea-project-body p, #trackling-project-body p, .about-item-text p{
 	font-size: 1.3rem;
-	line-height: 1.9rem;
+	line-height: 2.3rem;
 	letter-spacing: 0.065rem;
 }
 
@@ -192,19 +249,24 @@ figcaption{
 	font-size: 0.75rem;
 }
 
+h3.middle{
+	color: white;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 	.main-container{
 		margin: 0;
 	}
-	nav, #home-bio{
+	nav, #home-bio, .about-nav{
 		margin: 0.9rem 0.9rem 0.9rem 0.9rem;
 	}
 	#home-bio h2{
 		width: auto;
-		font-size: 2rem;
+		font-size: 3rem;
+		line-height: 1.1;
 	}
 	#home-bio em {
-    font-size: 2.3rem;
+    font-size: 3.3rem;
 	}
 	#home-projects h3{
 		font-family: 'neue_haas_grotesk_disp55roman';
@@ -249,14 +311,13 @@ figcaption{
 }
 
 .ea-project{
-	background: radial-gradient(ellipse farthest-corner at 500px 150px, 
-		rgba(255,40,82,1) 0%, rgba(255,141,77,1) 53%, rgba(255,222,82,1) 100%);
+    background: radial-gradient(ellipse farthest-corner at 820px 166px, 
+    	rgba(255,40,82,1) 13%, rgba(255,141,77,1) 53%, rgba(255,222,82,1) 100%);
 }
 
 
 .trackling-project{
-	/*background-color: #D6ECE8;*/
-background-image: linear-gradient(
+/*background-image: linear-gradient(
   315deg,
   hsl(0deg 0% 100%) 0%,
   hsl(166deg 46% 87%) 9%,
@@ -268,6 +329,18 @@ background-image: linear-gradient(
   hsl(167deg 47% 74%) 39%,
   hsl(166deg 46% 87%) 61%,
   hsl(0deg 0% 100%) 100%
+);*/
+background-image: linear-gradient(
+  120deg,
+  hsl(0deg 0% 100%) 0%,
+  hsl(225deg 84% 95%) 2%,
+  hsl(224deg 83% 90%) 9%,
+  hsl(213deg 86% 83%) 23%,
+  hsl(195deg 73% 70%) 45%,
+  hsl(177deg 50% 60%) 67%,
+  hsl(184deg 57% 62%) 83%,
+  hsl(200deg 79% 75%) 93%,
+  hsl(223deg 83% 86%) 100%
 );
 }
 
@@ -276,12 +349,13 @@ background-image: linear-gradient(
 background: linear-gradient(90deg, 
 	rgba(85,133,255,0.95) 3%, rgba(85,133,255,1) 40%, rgba(243,243,254,1) 100%);*/
 background-image: linear-gradient(
-  135deg,
+  13deg,
   hsl(268deg 68% 39%) 0%,
   hsl(255deg 46% 70%) 55%,
-  hsl(255deg 58% 76%) 75%,
+  hsl(255deg 58% 76%) 65%,
   hsl(268deg 63% 59%) 100%
 );
+
 }
 
 /* .vscia-project{
@@ -289,32 +363,31 @@ background-image: linear-gradient(
 } */
 
 .ea-project:hover{
- background: black;
+	background-size: 400% 400%;
+ 	animation: gradient 3s ease infinite;
 }
 
 .trackling-project:hover{
-	outline: solid black;
-	background: white;
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
-/* Project Page */
-
-/*.side-nav ul{
-	list-style-type: none;
-	padding-inline-start: 0;
-	line-height: 1.6rem;
-} /*
-
-/*.side-nav a{
-	color:#000000;
-	text-decoration: none;
-	font-size: 0.85rem;
-} */
-
 
 .highlight-dark{
-	background-color: #202020;
+	background-color: #0F0F0F;
 }
 
 .highlight-light{
@@ -330,7 +403,7 @@ div.para-spacing{
 
 ul li{
 	line-height: 1.7em;
-	font-size: 1em;
+	font-size: 1.2em;
 	letter-spacing: 0.05rem;
 }
 
@@ -409,30 +482,22 @@ ul li{
     margin-right: 0.9rem;
 	}
 		ul li{
-		font-size: 1rem;
+		font-size: 1.3rem;
+	}
+
+	.about-content{
+		padding: 0rem 0rem 0rem 0rem;
 	}
 }
 
 
 /*----------------ABOUT------------------*/
 
-.about-margin{
-	margin: 0em 10em 1.5em 10em;
-}
-
-section#about{
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-}
 
 .about-item{
 	justify-self: flex-end;
 }
 
-.about-item-text p{
-	line-height: 1.5rem;
-	font-size: 1rem;
-}
 
 #about h2{
 	font-size: 2.8rem;
@@ -488,6 +553,11 @@ section#about{
 	margin-bottom: 0rem;
 }
 
+.about-content{
+	padding-top: 0.75rem;
+	padding-right: 3rem;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
 	.about-margin{
 		margin: 0em;
@@ -501,6 +571,10 @@ section#about{
 	.about-item-text{
 		margin: 0.9rem 0.9rem 0.9rem 0.9rem;
 	}
+	.about-content{
+	padding-top: 0rem;
+	padding-right: 0rem;
+}
 }
 
 
@@ -525,13 +599,13 @@ section#about{
 
 #ea-gamestate{
 	color: #FFFFFF;
-	background-color: #161826;
+	background-color: #0f101a;
 }
 
 .reflection{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-color: #F1F1F1;
+	background-color: #0F0F0F;
 }
 
 hr.section_separator{
@@ -658,8 +732,11 @@ opacity: 0;
 position: relative;
 left: 102px;
 bottom: 188px;
-color: white;
 display: inline-block;
+}
+
+.middle h3{
+	color: red;
 }
 
 
@@ -669,6 +746,7 @@ display: inline-block;
 
 .wip-project:hover .splitwise-project{
 	background: black;
+	outline: solid 1px white;
 }
 
 .wip-project:hover img{
@@ -748,7 +826,7 @@ display: inline-block;
 	.middle {
 		bottom: 210px;
 	}
-	#ea-project-body p, #trackling-project-body p{
+	#ea-project-body p, #trackling-project-body p, .about-item-text p{
 	font-size: 1.15rem;
 	line-height: 1.7rem;
 	letter-spacing: 0.06rem;
