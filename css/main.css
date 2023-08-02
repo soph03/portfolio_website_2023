@@ -1,8 +1,8 @@
-#index{
+#index, #about-page{
 	background-color: #0F0F0F;
 }
 
-#home-bio{
+#home-bio, .about-item-text{
 	color: white;
 }
 
@@ -89,7 +89,8 @@ ul{
 	padding-left: 1rem;
 }
 
-.active, .nav-link:hover, .foot-left-grid a:hover {
+.active, .nav-link:hover, .foot-left-grid a:hover, .footer-container a:hover, 
+.foot-left-grid a p:hover{
  color: #bababa;
 }
 
@@ -211,15 +212,11 @@ strong{
 	font-family: 'neue_haas_grotesk_display65Md';
 }
 
-.home-footer p{
+.home-footer p, .about-footer p{
 	color: white;
 	font-size: 1.1rem;
 }
 
-.about-footer p{
-	color: black;
-	font-size: 1.1rem;
-}
 
 #ea-project-body p, #trackling-project-body p, .about-item-text p{
 	font-size: 1.3rem;
@@ -415,8 +412,8 @@ ul li{
 .footer-container{
 	grid-column-start: 1;
 	grid-column-end: 31;
-	margin-left: 5rem;
-	margin-right: 5rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -425,6 +422,7 @@ ul li{
 .footer-container a{
 	text-decoration: none;
 	color: black;
+	font-size: 1.1rem;
 }
 
 .footer-container{
