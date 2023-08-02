@@ -674,6 +674,12 @@ h3.number{
 	color: #878787;
 }
 
+h3.finding-num{
+	margin-bottom: 0.4rem;
+	margin-top: 0rem;
+	color: #878787;
+}
+
 .ea-changes, .ea-considerations{
 	padding-top: 1.7rem;
 }
