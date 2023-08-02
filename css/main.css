@@ -158,6 +158,11 @@ body{
 	font-family: 'AGaramondPro-Regular';
 }
 
+#trackling-project-body em{
+	font-style: normal;
+	text-decoration: underline;
+}
+
 .about-item-text em{
 	font-weight: lighter;
 	font-size: 3.3rem;
@@ -585,6 +590,15 @@ ul li{
 	margin-bottom: 0rem;
 }
 
+.project-detail li{
+	list-style-type: none;
+}
+
+.project-detail ul{
+	padding: 0; 
+  margin: 0;
+}
+
 .solution-button{
 	color: gray;
 }
@@ -657,6 +671,7 @@ hr.section_separator{
 h3.number{
 	margin-bottom: 0;
 	margin-top: 0.5rem;
+	color: #878787;
 }
 
 .ea-changes, .ea-considerations{
@@ -711,6 +726,7 @@ h3.number{
 	color: #409686;
 	font-size: 1.5rem;
 }
+
 
 
 /*.nav-link::after {
