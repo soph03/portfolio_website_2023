@@ -1,4 +1,4 @@
-#index, #about-page{
+#index, #about-page, .footer-container{
 	background-color: #0F0F0F;
 }
 
@@ -122,11 +122,11 @@ ul{
 }
 
 .home-footer{
-		margin: 0rem 3rem 2rem 3rem;
+		margin: 0rem 3rem 3rem 3rem;
 	}
 
 .about-footer{
-		margin: 0rem 3rem 2rem 1rem;
+		margin: 0rem 3rem 3rem 1rem;
 	}
 
 /*------------------FONTS------------------*/
@@ -136,9 +136,6 @@ body{
    letter-spacing: 0.03rem;
 }
 
-.reflection h2, .reflection h3, .reflection p{
-	color: white;
-	}
 
 #home-bio h2{
 	font-family: 'neue_haas_grotesk_disp55roman';
@@ -255,7 +252,7 @@ h3.middle{
 	color: white;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 520px){
 	.main-container{
 		margin: 0;
 	}
@@ -412,8 +409,7 @@ ul li{
 .footer-container{
 	grid-column-start: 1;
 	grid-column-end: 31;
-	margin-left: 3rem;
-	margin-right: 3rem;
+	padding: 3rem 3rem 3rem 3rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -421,14 +417,10 @@ ul li{
 
 .footer-container a{
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 1.1rem;
 }
 
-.footer-container{
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-}
 
 .footer-right{
 	display: flex;
@@ -561,7 +553,7 @@ ul li{
 	padding-right: 3rem;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 520px){
 	.about-margin{
 		margin: 0em;
 	}
@@ -617,7 +609,7 @@ ul li{
 .reflection{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-color: #0F0F0F;
+	background-color: #e0e0e0;
 }
 
 hr.section_separator{
@@ -709,7 +701,7 @@ h3.finding-num{
 	font-size: 1.1rem;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 520px){
 	.ea-impact, .ea-impact-big {
 		grid-template-columns: 0.25fr 1fr;
 		padding: 0.5rem 1.2rem 0.5rem 1rem;
@@ -829,7 +821,7 @@ display: inline-block;
   cursor: pointer;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 520px){
 	.middle {
     left: 50px;
     bottom: 340px;
