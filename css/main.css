@@ -363,12 +363,12 @@ background-image: linear-gradient(
 
 .ea-project:hover{
 	background-size: 400% 400%;
- 	animation: gradient 3s ease infinite;
+ 	animation: gradient 2s ease infinite;
 }
 
 .trackling-project:hover{
 	background-size: 400% 400%;
-	animation: gradient 3s ease infinite;
+	animation: gradient 2s ease infinite;
 }
 
 @keyframes gradient {
@@ -593,6 +593,10 @@ ul li{
 	color: gray;
 }
 
+.sub-sec{
+	padding-top: 1.5rem;
+}
+
 .ea-criteria li, .ea-focus li{
 	list-style: none;
 }
@@ -603,7 +607,7 @@ ul li{
 
 #ea-gamestate{
 	color: #FFFFFF;
-	background-color: #0f101a;
+	background-color: #121A4B;
 }
 
 .reflection{
@@ -627,7 +631,7 @@ hr.section_separator{
 
 .thefinding, .thefinding-trac{
 	border: 1.85px dashed #838383;
-	margin: 1rem 1rem 1rem 0rem;
+	margin: 1rem 0rem 1rem 0rem;
 	padding: 0.7rem 1rem 0.9rem 1.2rem;
 }
 

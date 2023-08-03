@@ -179,8 +179,8 @@
 .highlight-content-dark, .highlight-content-light{
 	grid-column-start: 7;
 	grid-column-end: 27;
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
+	padding-top: 2.1rem;
+	padding-bottom: 2.1rem;
 }
 
 .highlight-content-light{
@@ -275,10 +275,7 @@
 	grid-column-end: 27;
 }
 
-.process, .overview{
-	display: grid;
-	grid-row-gap: 1.5rem;
-}
+
 
 #ea-gamestate{
 	grid-column-start: 1;
