@@ -732,7 +732,9 @@ h3.finding-num{
 	font-size: 1.5rem;
 }
 
-
+.track-CA-grid h4{
+	color: black;
+}
 
 /*.nav-link::after {
   border-bottom: 2px solid;
