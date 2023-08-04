@@ -410,7 +410,7 @@
 	grid-template-columns: 0.8fr 1fr;
 	grid-column-gap: 3rem;
 	align-items: center;
-	margin-right: 7rem;
+	margin-right: 5rem;
 }
 
 .trackling-solution-grid{
@@ -421,9 +421,11 @@
 }
 
 .track-CA{
+	display: grid;
 	grid-column-start: 8;
 	grid-column-end: 25;
 	padding-bottom: 1rem;
+	padding-top: 2rem;
 }
 
 .track-CA-grid{

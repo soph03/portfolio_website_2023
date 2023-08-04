@@ -594,7 +594,11 @@ ul li{
 }
 
 .sub-sec{
-	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.sub-sec-img{
+	padding-bottom: 3rem;
 }
 
 .ea-criteria li, .ea-focus li{
@@ -620,7 +624,7 @@ hr.section_separator{
 	width: auto;
 	height: 0.5px;
 	background-color:black;
-	margin-bottom: 2rem;
+	margin-bottom: 2.5rem;
 }
 
 .checkbox{
@@ -654,7 +658,8 @@ hr.section_separator{
 }
 
 .findings-grid-CA{
-	padding-top: 1.5rem ;
+	padding-top: 1rem ;
+	padding-bottom: 1rem ;
 }
 
 .ea-changes p{
