@@ -158,7 +158,14 @@ body{
 
 #trackling-project-body em, #ea-project-body em{
 	font-style: normal;
-	text-decoration: underline;
+}
+
+#trackling-project-body em{
+	color: #409686;
+}
+
+#ea-project-body em{
+	color: #2D6FF8;
 }
 
 .about-item-text em{
@@ -472,16 +479,17 @@ ul li{
 	.home-projects-grid img{
 		margin-left: 0rem;
 	}
-	.footer-container{
-		 margin-left: 0.9rem;
-    margin-right: 0.9rem;
-	}
+
 		ul li{
 		font-size: 1.3rem;
 	}
 
 	.about-content{
 		padding: 0rem 0rem 0rem 0rem;
+	}
+
+	.footer-container{
+		padding: 3rem 1rem 3rem 1rem;
 	}
 }
 
@@ -611,13 +619,13 @@ ul li{
 
 #ea-gamestate{
 	color: #FFFFFF;
-	background-color: #121A4B;
+	background-color: #0d143f;
 }
 
 .reflection{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-color: #efefef;
+	background-color: #f9f9f9;
 }
 
 hr.section_separator{
