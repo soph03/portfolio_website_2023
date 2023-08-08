@@ -147,11 +147,10 @@
 
 .side-nav{
 	display: grid;
-	grid-column-start: 2;
-	grid-column-end: 6;
-	/*position: sticky;*/
-	align-self: start;
-    padding-top: 3.65em
+	position: absolute;
+	top: 0.2rem;
+	left: 2rem;
+    padding-top: 2.65em
 }
 
 .main-content, .ea-solution{
@@ -203,8 +202,12 @@
 		flex-direction: column;
 	}
 	.side-nav{
-    	padding-top: 0.9em;
-    	align-self: auto;
+    	padding-top: 0em;
+    	left: 0rem;
+	}
+	.side-nav ul{
+		grid-column-gap: 13.1rem;
+
 	}
 	.about-grid{
 		display: flex;
