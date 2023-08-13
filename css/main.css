@@ -649,6 +649,7 @@ hr.section_separator{
 	background-color: white;
 }
 
+
 .thefinding-trac{
 	border: 1.85px dashed #838383;
 	margin: 1rem 0rem 1rem 0rem;
@@ -658,10 +659,17 @@ hr.section_separator{
 .thefinding, .thefinding-CA{
 	margin: 1rem 0rem 1rem 0rem;
    padding: 0.2rem;
-   background:linear-gradient(161deg, rgb(255 74 74) 13%, rgb(255 158 104) 53%, rgba(255,222,82,1) 100%)
 }
 
-.thefinding-content{
+.thefinding, .ea-impact-hl{
+		background:linear-gradient(161deg, rgb(255 74 74) 13%, rgb(255 158 104) 53%, rgba(255,222,82,1) 100%)
+}
+
+.ea-impact-hl{
+	padding: 0.2rem;
+}
+
+.thefinding-content, .ea-impact-big{
 	  background: white;
     padding: 1.2rem;
     margin-block-start: initial;
@@ -725,19 +733,16 @@ h3.number, h3.finding-num{
 }
 
 .ea-impact, .ea-impact-big{
-	padding: 0.5rem 2rem 0.5rem 1.5rem;
+	padding: 0.7rem 2rem 0.7rem 1.5rem;
 	display: grid;
 	grid-template-columns: 0.1fr 1fr;
 	align-items: center;
 }
 
-.ea-impact{
+.ea-impact, .thefinding-CA{
 	border: 2px dashed #838383;
 }
 
-.ea-impact-big{
-	border: 1.9px solid #4e4e4e;
-}
 
 .reflection h3{
 	font-size: 1.1rem;
