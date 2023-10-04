@@ -160,16 +160,22 @@ body{
 	font-style: normal;
 }
 
-#trackling-project-body em{
-    background: -webkit-linear-gradient( 134deg, hsl(224deg 88.8% 65.07%) 9%, hsl(213deg 90.97% 61.04%) 23%, hsl(156.67deg 100% 39.56%) 45%, hsl(177deg 58.7% 56.21%) 67%, hsl(231.18deg 100% 61.94%) 83%, rgb(15 87 255) 93%);
+.trackling-problem em{
+    /*background: -webkit-linear-gradient( 134deg, hsl(224deg 88.8% 65.07%) 9%, hsl(213deg 90.97% 61.04%) 23%, hsl(156.67deg 100% 39.56%) 45%, hsl(177deg 58.7% 56.21%) 67%, hsl(231.18deg 100% 61.94%) 83%, rgb(15 87 255) 93%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
+    color: #BBF046;
 }
 
-#ea-project-body em{
-	background: radial-gradient(circle at 33%, rgb(255 0 50) 30%, rgb(255 118 42) 59%, rgb(232 188 0) 78%);
+.trackling-focus em{
+	color: #8bc806;
+}
+
+.ea-problem em, .ea-focus em{
+	color: #2D6FF8;
+	/*background: radial-gradient(circle at 33%, rgb(255 0 50) 30%, rgb(255 118 42) 59%, rgb(232 188 0) 78%);
 	-webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
 }
 
 .about-item-text em{
@@ -680,7 +686,8 @@ hr.section_separator{
 .thefinding-CA-track{
 	margin: 1rem 0rem 1rem 0rem;
   padding: 0.2rem;
-  background: linear-gradient(132deg, rgb(0 184 183) 10%, rgb(89 163 255) 80%, rgba(139, 170, 249, 1) 88%, rgb(176 185 244) 95%);
+  /*background: linear-gradient(132deg, rgb(0 184 183) 10%, rgb(89 163 255) 80%, rgba(139, 170, 249, 1) 88%, rgb(176 185 244) 95%);*/
+  border: solid #8bc806;
 }
 
 .thefinding-CA-track p{
@@ -689,8 +696,6 @@ hr.section_separator{
     margin-block-start: initial;
     margin-block-end: initial;
 }
-
-
 
 
 .thefinding p, .thefinding-trac p{
@@ -714,7 +719,7 @@ hr.section_separator{
 	margin-bottom: 0.5rem;
 }
 
-h3.finding-num{
+h3.finding-num, h3.number{
 	margin-bottom: 0;
 	margin-top: 0rem;
 	color: #878787;
