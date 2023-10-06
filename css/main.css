@@ -3,7 +3,7 @@
 }
 
 #home-bio, .about-item-text{
-	color: white;
+	color: #bababa;
 }
 
 
@@ -72,7 +72,7 @@ nav li{
 }
 
 nav li a , .foot-left-grid a{
-  color: #ffffff;
+  color: #bababa;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ nav li a , .foot-left-grid a{
 }
 
 .side-nav a{
-	color: white;
+	color: #bababa;
 	font-size: 1.2rem;
 }
 
@@ -91,7 +91,7 @@ ul{
 
 .active, .nav-link:hover, .foot-left-grid a:hover, .footer-container a:hover, 
 .foot-left-grid a p:hover{
- color: #bababa;
+ color: white;
 }
 
 .sMargin-p{
@@ -137,24 +137,30 @@ body{
 }
 
 
-#home-bio h2{
+#home-bio h2, #about h2{
 	font-family: 'neue_haas_grotesk_disp55roman';
 	font-size: 3rem;
 	margin: 0;
 	width: clamp(25ch, 90%, 50ch);
-	font-weight: 4;
 	line-height: 3.25rem;	
 }
 
+.home-bio-head{
+	margin-bottom: 1.9rem;
+}
+
+#home-bio h3{
+	font-family: 'neue_haas_grotesk_disp55roman';
+	margin-block-start: 0.3rem;
+	margin-block-end: 0.3rem;
+}
+
 #home-bio h5{
-	margin-block-start: 0.3em;
-	margin-block-end: 0.3em;
+	margin-block-start: 0.2em;
+	margin-block-end: 0.2em;
 	color: black;
 }
 
-#home em, .about-item-text em{
-	font-family: 'AGaramondPro-Regular';
-}
 
 #trackling-project-body em, #ea-project-body em{
 	font-style: normal;
@@ -196,9 +202,7 @@ body{
 .home-projects-desc h5{
 	font-size: 1.2rem;
 	margin: 0.5rem 0rem 0.5rem 0rem;
-	font-family: 'AGaramondPro-Regular';
-	font-style: italic;
-	font-weight: lighter;
+	font-family: 'neue_haas_grotesk_display35Th';
 }
 
 .splitwise-project img, .ea-project img{
@@ -217,17 +221,18 @@ body{
 	margin-top: 0;
 }
 
-/*.ea-project h3, .ea-project h5, .splitwise-project h3, .splitwise-project h5{
-	color: white;
-}*/
-
 strong{
-	/*color: #a7cf00;*/
 	font-family: 'neue_haas_grotesk_display65Md';
 }
 
+.about-item-text strong, #home strong, a.foot-left-grid{
+ font-family: 'neue_haas_grotesk_disp55roman';
+ color: white;
+ text-decoration: none;
+}
+
 .home-footer p, .about-footer p{
-	color: white;
+	color: #bababa;
 	font-size: 1.1rem;
 }
 
@@ -313,7 +318,7 @@ h3.middle{
 	margin-left: 2rem;
 }
 
-#home-projects a{
+#home-projects a, #home-bio a{
 	text-decoration: none;
 	color: inherit;
 }
@@ -407,7 +412,7 @@ background-image: linear-gradient(
 
 
 .highlight-dark{
-	background-color: #0F0F0F;
+	background-color: #131313;
 }
 
 .highlight-light{
@@ -516,10 +521,8 @@ ul li{
 }
 
 
-#about h2{
-	font-size: 2.8rem;
-	line-height: 3.5rem;	
-	margin: -.7rem 0rem 1.5rem 0rem
+#about h2{	
+	margin: -.4rem 0rem 1.5rem 0rem
 }
 
 #contact-links{
