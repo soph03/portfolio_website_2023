@@ -63,7 +63,7 @@ img{
 
 
 nav ul{
- 	margin-top: 0.2rem;
+ 	margin-top: 0rem;
  	list-style-type: none;
 }
 
@@ -90,7 +90,7 @@ ul{
 }
 
 .active, .nav-link:hover, .foot-left-grid a:hover, .footer-container a:hover, 
-.foot-left-grid a p:hover{
+.foot-left-grid a:hover{
  color: white;
 }
 
@@ -443,7 +443,7 @@ ul li{
 
 .footer-container a{
 	text-decoration: none;
-	color: white;
+	color: #bababa;
 	font-size: 1.1rem;
 }
 
@@ -699,7 +699,7 @@ hr.section_separator{
 
 .thefinding-CA-track p{
 	  background: white;
-    padding: 2rem;
+    padding: 1.65rem;
     margin-block-start: initial;
     margin-block-end: initial;
 }
@@ -775,6 +775,11 @@ strong.number{
 }
 
 /* ------------------ TRACKLING ------------------*/
+
+.header-background{
+	background-color: #0F0F0F;
+	height: 38rem;
+}
 .trackling-hero{
 		position: relative;
     padding:0;
