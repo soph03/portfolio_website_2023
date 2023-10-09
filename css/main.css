@@ -837,6 +837,13 @@ display: inline-block;
 	color: red;
 }
 
+.orange-font{
+	color: #F07C33;
+}
+
+.red-font{
+	color: #D92E5B;
+}
 
 .wip-project:hover .splitwise-project-h5, .wip-project:hover  .splitwise-project-h3{
   color: transparent;
