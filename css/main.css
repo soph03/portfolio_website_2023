@@ -919,6 +919,7 @@ display: inline-block;
     left: 50px;
     bottom: 340px;
   }
+
 }
 
 @media screen and (min-width: 700px){
@@ -935,11 +936,8 @@ display: inline-block;
 	font-size: 1.15rem;
 	line-height: 1.7rem;
 	letter-spacing: 0.06rem;
-	}
+	}	
 
-}
-
-@media screen and (min-width: 1000px)  {
 	#home-projects h3 {
     font-size: 2.2rem;
    }
@@ -965,10 +963,13 @@ display: inline-block;
     font-size: 1.1rem;
     letter-spacing: 0.062rem;
 	}
+
 }
+
 
 @media screen and (min-width: 1900px)  {
 	#home-projects h3 {
     font-size: 2.7rem;
    }
+
 }

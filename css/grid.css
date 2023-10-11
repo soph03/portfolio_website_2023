@@ -410,10 +410,9 @@
 
 .trackling-gif-grid{
 	display: grid;
-	grid-template-columns: 0.8fr 1fr;
+	grid-template-columns: 0.9fr 0.9fr;
 	grid-column-gap: 3rem;
 	align-items: center;
-	margin-right: 5rem;
 }
 
 .trackling-solution-grid{
