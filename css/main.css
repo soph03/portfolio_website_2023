@@ -89,8 +89,7 @@ ul{
 	padding-left: 1rem;
 }
 
-.active, .nav-link:hover, .foot-left-grid a:hover, .footer-container a:hover, 
-.foot-left-grid a:hover{
+.active, .nav-link:hover, .foot-left-grid p:hover, .footer-container a:hover{
  color: white;
 }
 
@@ -542,27 +541,6 @@ ul li{
 	margin-bottom: 1rem;
 }
 
-.resume-button{
-	background-color: #ffe1c6;
-	color: #ea7404;
-}
-
-.linkedln-button{
-	background-color: #b8e4f9;
-	color: #084664;
-}
-
-.resume-button:hover{
-	outline: solid black;
-	color: black;
-	background: white;
-}
-
-.linkedln-button:hover{
-	outline: solid black;
-	color: black;
-	background: white;
-}
 
 .about-skill-grid p{
 	margin-bottom: 0rem;
