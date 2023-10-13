@@ -1,8 +1,8 @@
-#index, #about-page, .footer-container{
+#index, #about-page, .footer-container, .reflection{
 	background-color: #0F0F0F;
 }
 
-#home-bio, .about-item-text{
+#home-bio, .about-item-text, .reflection{
 	color: #bababa;
 }
 
@@ -624,7 +624,6 @@ ul li{
 .reflection{
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-color: #f9f9f9;
 }
 
 hr.section_separator{
