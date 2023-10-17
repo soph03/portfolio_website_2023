@@ -2,7 +2,7 @@
 	background-color: #0F0F0F;
 }
 
-#home-bio, .about-item-text, .reflection{
+#home-bio, .about-item-text, .reflection p{
 	color: #bababa;
 }
 
@@ -165,7 +165,8 @@ body{
 	font-style: normal;
 }
 
-.trackling-problem em, .trackling-focus em, .ea-problem em, .ea-focus em{
+.trackling-problem em, .trackling-focus em, .ea-problem em, .ea-focus em, 
+.track-solution-final strong, .reflection strong{
     color: white;
 }
 
@@ -393,7 +394,6 @@ background-image: linear-gradient(
 }
 
 
-
 .highlight-dark{
 	background-color: #131313;
 }
@@ -576,7 +576,7 @@ ul li{
 	background-color: #0f0f0f;
 }
 
-#trackling-mock p, #trackling-mock strong{
+#trackling-mock p{
 	color: #bababa;
 }
 
@@ -721,6 +721,13 @@ strong.number{
 	font-size: 1.5rem;
 }
 
+strong.orange-font{
+	color: #F07C33;
+}
+
+strong.red-font{
+	color: #D92E5B;
+}
 
 /*.nav-link::after {
   border-bottom: 2px solid;
@@ -735,14 +742,6 @@ strong.number{
   transform: scaleX(1);
   transform-origin: bottom left;
 }*/
-
-.orange-font{
-	color: #F07C33;
-}
-
-.red-font{
-	color: #D92E5B;
-}
 
 
 /* ------------------ MODAL IMG ------------------*/
