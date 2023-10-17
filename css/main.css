@@ -166,7 +166,7 @@ body{
 }
 
 .trackling-problem em, .trackling-focus em, .ea-problem em, .ea-focus em, 
-.track-solution-final strong, .reflection strong{
+.track-solution-final strong, .reflection strong, .reflection h3, .reflection h2{
     color: white;
 }
 
