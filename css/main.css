@@ -744,6 +744,14 @@ strong.red-font{
   transform-origin: bottom left;
 }*/
 
+.solution_comp{
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 27;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+}
+
 
 /* ------------------ MODAL IMG ------------------*/
 
