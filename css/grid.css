@@ -46,6 +46,13 @@
     justify-content: center;
 }
 
+.home_tag{
+	display: flex;
+	grid-column-gap: 0.7rem;
+	align-items: center;
+
+}
+
 .home-footer, .about-footer{
 	display: flex;
 	justify-content: space-between;
