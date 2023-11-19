@@ -314,75 +314,59 @@ h3.middle{
 }
 
 .ea-project{
-    background: radial-gradient(circle at 45% 96%, rgba(152, 0, 30, 1) 30%, 
-    	rgb(175 66 5) 50%,rgba(188, 81, 21, 1) 60%, rgba(218, 177, 0, 1) 100%);
-    color: white;
+  background: radial-gradient(circle at 75% 96%, rgba(11,25,115,1) 11%, 
+  rgba(37,45,97,1) 44%, rgba(0,0,0,1) 100%);
+  color: white;
 }
-
-
-.trackling-project{
-/*background-image: linear-gradient(
-  315deg,
-  hsl(0deg 0% 100%) 0%,
-  hsl(166deg 46% 87%) 9%,
-  hsl(167deg 47% 74%) 16%,
-  hsl(169deg 48% 60%) 23%,
-  hsl(169deg 48% 60%) 28%,
-  hsl(169deg 48% 60%) 31%,
-  hsl(169deg 48% 60%) 34%,
-  hsl(167deg 47% 74%) 39%,
-  hsl(166deg 46% 87%) 61%,
-  hsl(0deg 0% 100%) 100%
-);*/
-color: white;
-background: linear-gradient(
-	146deg, 
-	rgba(14, 27, 51, 1) 20%, 
-	rgba(8, 82, 95, 1) 40%, 
-	rgba(67, 97, 135, 1) 80%, 
-	rgb(13 50 69) 89%, 
-	rgb(14 27 50) 95%);
-}
-
-.notetracks-project{
-background-image: linear-gradient(
-  13deg,
-  hsl(277.58deg 68% 39%) 0%,
-  hsl(255deg 86.27% 30.87%) 55%,
-  hsl(265.16deg 100% 32.47%) 65%,
-  hsl(15.1deg 78.59% 64.2%) 100%
-);
-color: white;
-}
-
 
 .ea-project:hover{
-   background: radial-gradient(circle at 45% 96%, rgb(233 0 46) 30%, 
-     rgb(226 81 0) 50%,rgb(240 118 49) 60%, rgb(255 226 102) 100%);
+   background: radial-gradient(circle at 75% 96%, rgba(11,25,115,1) 11%, 
+  rgba(37,45,97,1) 44%, rgba(0,0,0,1) 100%);
 	background-size: 400% 400%;
  	animation: gradient 6s ease infinite;
  	color: white;
 }
 
+.tag_ea p{
+	background-color: #041545;
+}
+
+.trackling-project{
+color: white;
+background: radial-gradient(circle at 75% 98%, rgba(187,240,70,1) 0%, rgb(36 97 68) 33%, 
+	rgb(24 54 60) 59%, rgb(11 24 27) 83%);
+}
+
 .trackling-project:hover{
-	background: linear-gradient(146deg, rgb(30 87 192) 20%, rgb(41 134 150) 40%, 
-	rgb(98 145 204) 80%, rgb(37 111 148) 89%, rgb(42 107 223) 95%);
+	background: radial-gradient(circle at 75% 98%, rgba(187,240,70,1) 0%, rgb(36 97 68) 33%, 
+	rgb(24 54 60) 59%, rgb(11 24 27) 83%);
 	background-size: 400% 400%;
 	animation: gradient 6s ease infinite;
 	color: white;
 }
 
+.tag_tl p{
+	background-color: #142b30;
+}
+
+.notetracks-project{
+/*background: radial-gradient(circle at 75% 120%, rgba(253,187,45,1) 10%, 
+rgb(147 207 115) 29%, rgb(1 57 6) 65%, rgb(16 15 7) 98%);*/
+background: radial-gradient(circle at 86% 98%, rgba(253,187,45,1) 0%, 
+		rgb(108 92 57) 38%, rgb(26 26 26) 86%);
+color: white;
+}
+
 .notetracks-project:hover{
-	background: linear-gradient(
-  13deg,
-  hsl(32.69deg 100% 58.4%) 0%,
-  hsl(259.22deg 96.65% 60.71%) 55%,
-  hsl(265.16deg 100% 57.74%) 65%,
-  hsl(15.1deg 78.59% 64.2%) 100%
-);
+	background: radial-gradient(circle at 86% 98%, rgba(253,187,45,1) 0%, 
+		rgb(108 92 57) 38%, rgb(26 26 26) 86%);
 	background-size: 400% 400%;
 	animation: gradient 6s ease infinite;
 	color: white;
+}
+
+.tag_nt p{
+	background-color: #2b2519;
 }
 
 @keyframes gradient {
@@ -402,18 +386,6 @@ color: white;
 	text-align: center;
 	padding: 0.5rem 0.5rem;
 	margin: 0.5rem 0rem 0.5rem 0rem;
-}
-
-.tag_ea p{
-	background-color: #710101;
-}
-
-.tag_nt p{
-	background-color: #402065;
-}
-
-.tag_tl p{
-	background-color: #0d1b32;
 }
 
 .highlight-dark{
