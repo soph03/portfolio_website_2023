@@ -327,10 +327,6 @@ h3.middle{
  	color: white;
 }
 
-.tag_ea p{
-	background-color: #041545;
-}
-
 .trackling-project{
 color: white;
 background: radial-gradient(circle at 75% 98%, rgba(187,240,70,1) 0%, rgb(36 97 68) 33%, 
@@ -343,10 +339,6 @@ background: radial-gradient(circle at 75% 98%, rgba(187,240,70,1) 0%, rgb(36 97 
 	background-size: 400% 400%;
 	animation: gradient 6s ease infinite;
 	color: white;
-}
-
-.tag_tl p{
-	background-color: #142b30;
 }
 
 .notetracks-project{
@@ -365,10 +357,6 @@ color: white;
 	color: white;
 }
 
-.tag_nt p{
-	background-color: #2b2519;
-}
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -383,9 +371,9 @@ color: white;
 
 .home_tag p{
 	font-size: 0.8rem;
-	text-align: center;
 	padding: 0.5rem 0.5rem;
 	margin: 0.5rem 0rem 0.5rem 0rem;
+	border: solid 0.9px #7e7e7e;
 }
 
 .highlight-dark{
