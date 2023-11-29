@@ -178,7 +178,7 @@
     grid-column-end: 31;
     display: grid;
     grid-template-columns: repeat(30, 1fr);
-    margin-top: 1.2rem;
+    margin-top: 1.1rem;
     margin-bottom: 1.2rem;
 }
 
@@ -425,7 +425,7 @@
 	margin-bottom: 5rem;
 }
 
-.trackling-gif-grid, .arc-solution-grid{
+.trackling-gif-grid{
 	display: grid;
 	grid-template-columns: 0.9fr 0.9fr;
 	grid-column-gap: 3rem;

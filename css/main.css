@@ -224,10 +224,11 @@ strong{
 	letter-spacing: 0.065rem;
 }
 
-
 h2{
 	font-family: 'neue_haas_grotesk_display35Th';
-	font-size: 1.55rem;
+	font-size: 2.4rem;
+	margin-block-end: ;
+	color: #747474;
 }
 
 h3{
@@ -367,11 +368,11 @@ color: #141414;
 }
 
 .home_tag p{
-	font-family: 'neue_haas_grotesk_display65Md';
+	font-family: 'neue_haas_grotesk_disp55roman';
 	font-size: 0.8rem;
 	padding: 0.5rem 0.5rem;
 	margin: 0.5rem 0rem 0.5rem 0rem;
-	border: solid 1.2px #141414;
+	border: solid 1px #212121;
 	color: #242424;
 }
 
@@ -381,6 +382,11 @@ color: #141414;
 
 .highlight-dark h1{
 	color: #919090;
+}
+
+.highlight-dark h2{
+	color: white;
+	font-size: 1.9rem;
 }
 
 .highlight-light{
@@ -535,7 +541,7 @@ ul li{
 }
 
 .sub-sec-trackling{
-	padding-bottom: 1.5rem;
+	padding-bottom: 1.1rem;
 }
 
 .sub-sec-img{
@@ -585,11 +591,6 @@ hr.section_separator{
 }
 
 
-.ea-impact-big{
-	background-color:#caddfc;
-}
-
-
 .thefinding-CA-track{
 	margin: 1rem 0rem 1rem 0rem;
   padding: 0.2rem;
@@ -600,14 +601,6 @@ hr.section_separator{
     padding: 1.65rem;
     margin-block-start: initial;
     margin-block-end: initial;
-}
-
-.ea-impact{
-	background-color: #F1F1F1;
-}
-
-.ea-impact h5, .ea-impact-big h5{
-	font-family: 'neue_haas_grotesk_disp55roman';
 }
 
 
@@ -648,12 +641,13 @@ strong.number{
 
 .ea-impact-grid h5{
 	margin:0.8rem 0rem 0.8rem 0rem ;
+	font-family: 'neue_haas_grotesk_disp55roman';
 }
 
-.ea-impact, .ea-impact-big{
-	padding: 0.55rem 1.6rem 0.55rem 1.3rem;
-	display: grid;
-	grid-template-columns: 0.1fr 1fr;
+.ea-impact{
+	background-color: #F1F1F1;
+	padding: 1rem 1.7rem 1rem 1.7rem;
+	line-height: 1.5rem;
 	align-items: center;
 }
 
@@ -667,7 +661,7 @@ strong.number{
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 520px){
-	.ea-impact, .ea-impact-big {
+	.ea-impact {
 		grid-template-columns: 0.25fr 1fr;
 		padding: 0.5rem 1.2rem 0.5rem 1rem;
 	}
