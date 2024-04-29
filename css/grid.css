@@ -88,7 +88,6 @@
 	.home-footer, .about-footer{
 		display: inherit;
 		text-align: center;
-		margin-bottom: 1rem;
 	}
 	.foot-left-grid{
 		justify-content: space-between;

@@ -125,7 +125,7 @@ ul{
 		position: absolute;
   	bottom: 0;
   	width: 100%;
-  	padding: 0rem 3rem 2rem 3rem;
+  	padding: 0rem 3rem 0rem 3rem;
 	}
 
 
@@ -262,11 +262,11 @@ h3.middle{
 		margin: 0;
 	}
 	nav, #home-bio, .about-nav{
-		margin: 1rem;
+		margin: 1.5rem;
 	}
 #home-bio h2, #about h2{
 		width: auto;
-		font-size: 3rem;
+		font-size: 2.8rem;
 		line-height: 1.1;
 	}
 	#home-bio em {
