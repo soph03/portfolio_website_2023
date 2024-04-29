@@ -7,15 +7,17 @@
 #home, #about{
 	display: grid;
 	grid-template-columns: 0.2fr 1fr;
+	grid-template-rows: auto 0.5fr auto;
 	grid-column-gap: 4rem ;
-	grid-row-gap: 4rem;
 }
 
-#about{
-	padding-bottom: 6rem;
- }
+#home-bio, .about-content{
+	grid-column-start: 2;
+	grid-row-start: 2;
+}
 
-#home-projects{
+
+/*#home-projects{
 	display: grid;
 	grid-row-gap: 2rem;
 	margin: 3rem 0 1rem 0;
@@ -28,7 +30,7 @@
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	align-items: center;
-}
+}*/
 
 #home-about{
 	display: grid;
@@ -86,7 +88,7 @@
 	.home-footer, .about-footer{
 		display: inherit;
 		text-align: center;
-		margin-bottom: 2.2rem;
+		margin-bottom: 1rem;
 	}
 	.foot-left-grid{
 		justify-content: space-between;
@@ -104,11 +106,6 @@
 
 /*------------------ABOUT------------------*/
 
-.about-grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 4rem;
-}
 .about-skill-grid{
 	display: flex;
 	grid-column-gap: 2rem; 
