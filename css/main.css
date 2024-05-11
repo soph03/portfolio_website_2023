@@ -44,7 +44,7 @@ img{
 
 /* top right bottom left */
 .main-container{
-	margin:3rem 0 2rem 2rem;
+	margin:2rem 2rem 2rem 2rem;
 }
 
 .home-subbio{
@@ -61,6 +61,12 @@ img{
  align-items: center;
 }
 
+.location{
+	text-align: right;
+	color: #bababa;
+	font-size: 1rem;
+	padding-right: 1rem;
+}
 
 nav ul{
  	margin-top: 0rem;
@@ -87,6 +93,7 @@ nav li a , .foot-left-grid a{
 
 ul{
 	padding-left: 1rem;
+	padding-top: 1rem;
 }
 
 .active, .nav-link:hover, .foot-left-grid p:hover, .footer-container a:hover{
@@ -125,7 +132,7 @@ ul{
 		position: absolute;
   	bottom: 0;
   	width: 100%;
-  	padding: 0rem 3rem 0rem 3rem;
+  	padding: 0rem 3rem 2rem 3rem;
 	}
 
 
@@ -139,7 +146,7 @@ body{
 
 #home-bio h2, #about h2{
 	font-family: 'neue_haas_grotesk_disp55roman';
-	font-size: 3rem;
+	font-size: 2.7rem;
 	margin: 0;
 	line-height: 3.25rem;	
 }
@@ -233,7 +240,7 @@ h2{
 
 h3{
 	font-family: 'neue_haas_grotesk_display65Md';
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 
 h4{
@@ -261,12 +268,12 @@ h3.middle{
 	.main-container{
 		margin: 0;
 	}
-	nav, #home-bio, .about-nav{
+	nav, #home-bio{
 		margin: 1.5rem;
 	}
 #home-bio h2, #about h2{
 		width: auto;
-		font-size: 2.8rem;
+		font-size: 2.4rem;
 		line-height: 1.1;
 	}
 	#home-bio em {
@@ -392,7 +399,7 @@ div.para-spacing{
 
 ul li{
 	line-height: 1.7em;
-	font-size: 1.2em;
+	font-size: 1em;
 	letter-spacing: 0.05rem;
 }
 
@@ -408,7 +415,7 @@ ul li{
 .footer-container a{
 	text-decoration: none;
 	color: #bababa;
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 
 
@@ -431,7 +438,7 @@ ul li{
 	}
 
 		ul li{
-		font-size: 1.3rem;
+		font-size: 1rem;
 	}
 
 	.about-content{
@@ -510,7 +517,7 @@ ul li{
 
 
 /*---------------EA------------------*/
-#navigation h3{
+.navigation h3{
 	padding-left: 5rem;
 	margin-bottom: 0rem;
 }
@@ -800,7 +807,7 @@ strong.red-font{
 		bottom: 260px;
 	}
 	#home-bio h2{
-		font-size: 3.7rem;
+		font-size: 3.2rem;
 		line-height: 3.9rem;
 	}
 	#home-bio em{
@@ -808,7 +815,6 @@ strong.red-font{
 	}
 	ul li {
     line-height: 1.7em;
-    font-size: 1.1rem;
     letter-spacing: 0.062rem;
 	}
 

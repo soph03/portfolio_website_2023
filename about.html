@@ -14,17 +14,23 @@
     <link rel="stylesheet" href="css/fonts.css">
 </head>
 
+<body onload="startTime()">
+
 <div class="main-container">
 <section id="about">
     
     <div>
         <!-- Main Navigation -->
-        <nav class="about-nav">
+        <nav class="navigation">
             <ul>
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="active">About</a></li>
                 <!--<li><a href="about.html#contact-links" class="nav-link">Contact</a></li> -->
             </ul>
+            <div class="location">
+                <p>Vancouver, Canada</p>
+                <div id="clock"></div>
+            </div>
         </nav> <!-- Main Navigation -->
     </div>
 
@@ -33,20 +39,19 @@
 
 
             <div class="about-item-text">
-                <h2>A little about <strong>me</strong></h2>
+                <h2>A little bit about <strong>me</strong></h2>
 
                 <div class="home-subbio">
                     <!-- <img src="img/location.png" width="20">-->
-                    <p>📍 <strong>Vancouver,</strong> Canada - open to <strong>relocate</strong></p>
                 </div>
 
                 <p>Growing up, I found joy and interest in <strong>capturing memories</strong> on film, <strong>documenting travels</strong> through videography, and <strong>developing business ideas</strong> for non profits. My passions have led me to pursue an education in both the <strong>creative</strong> and <strong>entrepreneurial</strong> space - a double Bachelor's degree in Interactive Arts and Technology and Business, with a concentration in <strong>Design</strong> and <strong>Marketing.</strong></p>
 
                 <p>Outside of work, you can find me drafting my next <strong>adventure</strong>, discovering new <strong>music</strong>, exploring <strong>culinary</strong> indulgences, or engaging in some form of <strong>physical activity.</strong></p>
 
-                <p>💡 Current problem space: Intelligent <strong>interfaces</strong> with <strong>context awareness</strong> (let's <strong>chat</strong> about <strong>AI</strong>).</p>
+                <p>Current problem space: Intelligent <strong>interfaces</strong> with <strong>context awareness</strong> (let's <strong>chat</strong> about <strong>AI</strong>).</p>
 
-                <p>😍 Current obsessions: <strong>Climbing</strong>, brazillian <strong>funk</strong>, and waxy <strong>corn.</strong></p>
+                <p>Current obsessions: <strong>Climbing</strong>, ANOTR radio @spotify, and waxy <strong>corn.</strong></p>
 
             </div> <!-- about-item-text -->
 
@@ -71,7 +76,8 @@
 
 
     <script src="js/hamburger.js"></script>
+    <script src="js/clock.js"></script>
 
 
-
+</body>
 </html>

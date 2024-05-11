@@ -17,17 +17,24 @@
     <link rel="stylesheet" href="css/fonts2.css">
 </head>
 
-<body>
+<body onload="startTime()">
+
+<script src="js/clock.js"></script>
+
 <div class="main-container">
 <section id="home">
 
     <div>
         <!-- Main Navigation -->
-        <nav id="navigation">
+        <nav class="navigation">
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html" class="nav-link">About</a></li>
             </ul>
+            <div class="location">
+                <p>Vancouver, Canada</p>
+                <div id="clock"></div>
+            </div>
         </nav> <!-- Main Navigation -->
     </div>
 
