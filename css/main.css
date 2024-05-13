@@ -68,6 +68,10 @@ img{
 	padding-right: 1rem;
 }
 
+.location p{
+	margin-bottom: 0.5rem;
+}
+
 nav ul{
  	margin-top: 0rem;
  	list-style-type: none;
