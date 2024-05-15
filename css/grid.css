@@ -18,8 +18,8 @@
 
 #home-bio, .about-content{
 	position: absolute;
-    top: 45%;
-    left: 55%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 70%;
 }
@@ -71,14 +71,15 @@
 	grid-column-gap: 1.8rem;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 500px){
+@media only screen and (min-device-width: 320px) and (max-device-width: 540px){
+	#home-bio, .about-content{
+	    width: 88%;
+	}
 	#home{
 		display: inline;
 	}
 	nav ul{
 		padding-left: 0rem;
-		display: flex;
-		justify-content: space-between;
 	}
 	.about-content{
 		display: flex;
@@ -95,18 +96,27 @@
 	.home-footer, .about-footer{
 		display: inherit;
 		text-align: center;
+		padding: 0rem 1.5rem 1rem 1.5rem;;
 	}
 	.foot-left-grid{
 		justify-content: space-between;
 		grid-column-gap: 0rem;
-		padding-bottom: 1.5rem;
 	}
-	#about {
-    padding-bottom: 2rem;
-    display: inherit;
+	#about{
+	    padding-bottom: 2rem;
+	    display: inherit;
 	}
 }
 
+@media only screen and (min-width: 1500px){
+	#home-bio, .about-content{
+		position: absolute;
+	    top: 45%;
+	    left: 55%;
+	    transform: translate(-50%, -50%);
+	    width: 60%;
+	}
+}
 
 
 

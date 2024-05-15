@@ -272,7 +272,7 @@ h3.middle{
 	.main-container{
 		margin: 0;
 	}
-	nav, #home-bio{
+	nav{
 		margin: 1.5rem;
 	}
 #home-bio h2, #about h2{
@@ -295,9 +295,6 @@ h3.middle{
 	.middle{
 		display: none;
 	}
-	.home-footer, .about-footer{
-		position: relative;
-	}
 	.home-footer h5{
 		font-size: 1rem;
     margin: 0.6rem 0rem 0rem 0.9rem;
@@ -305,6 +302,9 @@ h3.middle{
 	.back-up{
 		right: 1.8rem;
     bottom: 1.8rem;
+	}
+	.location{
+		padding-right: 0rem;
 	}
 
 }
@@ -825,9 +825,16 @@ strong.red-font{
 }
 
 
-@media screen and (min-width: 1900px)  {
+@media screen and (min-width: 1800px)  {
 	#home-projects h3 {
     font-size: 2.7rem;
    }
+   #home-bio h2{
+		font-size: 3.7rem;
+		line-height: normal;
+	}
+	 #home-bio h3{
+		font-size: 1.6rem;
+	}
 
 }
