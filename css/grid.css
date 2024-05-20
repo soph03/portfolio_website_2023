@@ -73,10 +73,11 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 540px){
 	#home-bio, .about-content{
-	    width: 88%;
-	}
-	#home{
-		display: inline;
+	position: relative;
+    top: 0;
+    left: 10%;
+    transform: translate(0%, 0%);
+    width: 80%;
 	}
 	nav ul{
 		padding-left: 0rem;
@@ -96,7 +97,7 @@
 	.home-footer, .about-footer{
 		display: inherit;
 		text-align: center;
-		padding: 0rem 1.5rem 1rem 1.5rem;;
+		padding: 2rem 1.5rem 1rem 1.5rem;;
 	}
 	.foot-left-grid{
 		justify-content: space-between;

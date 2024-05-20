@@ -275,7 +275,7 @@ h3.middle{
 	nav{
 		margin: 1.5rem;
 	}
-#home-bio h2, #about h2{
+	#home-bio h2, #about h2{
 		width: auto;
 		font-size: 2.4rem;
 		line-height: 1.1;
@@ -294,6 +294,9 @@ h3.middle{
 	}
 	.middle{
 		display: none;
+	}
+	.home-footer, .about-footer{
+		position: relative;
 	}
 	.home-footer h5{
 		font-size: 1rem;
