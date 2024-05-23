@@ -277,8 +277,11 @@ h3.middle{
 	}
 	#home-bio h2, #about h2{
 		width: auto;
-		font-size: 2.4rem;
+		font-size: 2.1rem;
 		line-height: 1.1;
+	}
+	#home-bio h3 {
+    font-size: 1rem;
 	}
 	#home-bio em {
     font-size: 3.3rem;
@@ -301,7 +304,10 @@ h3.middle{
 	.home-footer h5{
 		font-size: 1rem;
     margin: 0.6rem 0rem 0rem 0.9rem;
-	} 
+	}
+	.home-footer p{
+		font-size: 1rem;
+	}
 	.back-up{
 		right: 1.8rem;
     bottom: 1.8rem;
