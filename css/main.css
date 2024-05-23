@@ -305,7 +305,7 @@ h3.middle{
 		font-size: 1rem;
     margin: 0.6rem 0rem 0rem 0.9rem;
 	}
-	.home-footer p{
+	.home-footer p, .about-footer p{
 		font-size: 1rem;
 	}
 	.back-up{
@@ -518,8 +518,9 @@ ul li{
 	.home-subbio{
 		white-space: inherit;
 	}
-	.about-item-text{
-		margin: 0.9rem 0.9rem 0.9rem 0.9rem;
+	.about-item-text p{
+		font-size: 1rem;
+		line-height: 1.8rem;
 	}
 	.about-content{
 	padding-top: 0rem;
