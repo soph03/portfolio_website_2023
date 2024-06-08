@@ -97,7 +97,7 @@
 	.home-footer, .about-footer{
 		display: inherit;
 		text-align: center;
-		padding: 2rem 1.5rem 1rem 1.5rem;;
+		padding: 3.5rem 1.5rem 1rem 1.5rem;;
 	}
 	.foot-left-grid{
 		justify-content: space-between;
